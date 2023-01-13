@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Order summary card</title>
@@ -10,21 +11,37 @@
 <body>
   <!-- start container-->
   <div class="container d-flex justify-contain-center align-item-center">
+    <!-- main card wrapper -->
     <div class="card-wrapper">
-   <img src="/images/illustration-hero.svg" alt="music-image"  class="w-100"> 
-   <div class="hdbgc ">
-    <p> You can fvjuoidfhnvijkfdvbjhbc now</p>
-    <h1>Order Summary</h1>
-    
-    <p> You can fvjuoidfhnvijkfdvbjhbc now</p>
-    <h1>Order Summary</h1> <p> You can fvjuoidfhnvijkfdvbjhbc now</p>
-    <h1>Order Summary</h1> <p> You can fvjuoidfhnvijkfdvbjhbc now</p>
-    <h1>Order Summary</h1>
-    
-
-   </div>
-          
+      <!-- card image -->
+      <div class="card-image">
+        <img src="/images/illustration-hero.svg" alt="music-image">
+      </div>
+      <!-- card image details -->
+      <div class="card-body">
+        <h1>Order Summary</h1>
+        <p>
+      You can now listen to millions of songs,<br>
+       audiobook,podcasts on any device <br>
+               any where you like!
+     </p>
+        <div class="annual-section d-flex justify-contain-between align-item-center">
+          <div class="d-flex align-item-center">
+            <img src="images/icon-music.svg">
+            <div class="ms-20">
+              <h3>Annual Plan</h3>
+              <span> $59.99/year</span>
+            </div>
+          </div>
+          <a href="#">Change</a>
+        </div>
+        <div class="d-flex f-direction-column justify-contain-between align-item-center mt-30">
+          <button class="btn"> Proceed to Payment</button>
+          <a href="#" class="mt-30"> Cancel Order</a>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+   <!-- End start container-->
 </body>
 </html>
